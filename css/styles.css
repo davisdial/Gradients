@@ -1,0 +1,67 @@
+
+h1
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 100;
+    color: rgb(4, 4, 4);
+}
+h2
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 100;
+    color: rgb(5, 5, 5);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+body {
+    background-color: orange;
+    background-image: radial-gradient(circle,blue,lightblue);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 200;
+    color: rgb(9, 9, 9);
+    text-align: center;
+    background-color: radial-gradient(circle);
+    
+}
+body {
+    background: black radial-gradient(
+      circle farthest-side at
+        calc(var(--mouseX, 1) * 1px)
+        calc(var(--mouseY, 1) * 1px),
+      hsl(var(--mouseX, 5), 75%, 75%),
+      hsl(var(--mouseY, 45), 75%, 75%)
+    );
+  }
+.background2
+{ 
+    background-color: radial-gradient(circle);
+    color: coral,orangered,orange;
+    orientation: landscape;
+}
+.example 
+{ 
+    background-color: rgb(255, 122, 89); 
+} 
+.background 
+{
+    range:
+      radial-gradient(rgba(red, 0.3), rgba(red, 0) 40vw),
+      radial-gradient(rgba(green, 0.3), rgba(green, 0) 40vw),
+      radial-gradient(rgba(blue, 0.3), rgba(blue, 0) 40vw),
+      radial-gradient(rgba(yellow, 0.3), rgba(yellow, 0) 40vw),
+      radial-gradient(rgba(red, 0.3), rgba(red, 0) 40vw);
+    position:
+      -40vw 14rem,
+      50% 10rem,
+      60vw 14rem,
+      -10vw calc(14rem + 20vw),
+      30vw calc(14rem + 20vw);
+    size: 80vw 80vw;
+  }
+
+
+
+  
